@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Bebas Neue' , cursive;
+}
+body{
+  background-color: #333333;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  background-color: #cc0000;
+  color: #ffde00;
+  position: relative;
+}
+.navbar h3{
+  margin-left: 20px;
+  font-size: xx-large;
+}
+.navlinks{
+  margin-right: 40px;
+}
+
+.navbarlink{
+  color:#ffde00;
+  padding: 5px;
+  text-decoration: none;
+  font-size: x-large;
+  margin: 20px;
+}
+.activenavlink{
+  background-color: rgba(0 , 255, 255 , 0.7) ;
+}
+.displayarea{
+  margin-top: 50px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.pokedex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.searchlabel{
+  color: #ebecf0;
+  margin-top:20px;
+}
+.searchbar{
+  margin-top: 6px;
+  text-align: center;
+  font-size: large;
+  border-radius: 20px;
+  width: 40vh;
+  height: 2.5rem;
+  background-color: #ebecf0;
+  color: #333333;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 1rem;
+  background-color: #ebecf0 ;
+  margin: 15px;
+  width: 11rem;
+  height: 17rem;
+  position: relative;
+  transition: transform 500ms ease;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.cardcontent{
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 11rem;
+  height: 17rem;
+}
+.imghere{
+  background-color: rgba(0 , 255, 255 , 0.6);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  width:100%;
+  height: 50%;
+
+}
+.details{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: yellow;
+  width: 95%;
+  height: 50%;
+  padding: 10px;
+
+}
+.details h2{
+  text-align: center;
+}
+.pokemontype{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  left: 14px;
+  top: 46%;
+  border-radius: 7px;
+  position: absolute;
+  color:white;
+  width: 4rem;
+  height: 1.5rem;
+}
+.link{
+  text-decoration: none;
+  color: #222222;
+}
+.individualpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #ebecf0;
+  font-family: sans-serif;
+  font-size: xx-large; 
+}
+.imghere2{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  width:100%;
+  height: 50%;
+
+}
+.details2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 95%;
+  height: 50%;
+  padding: 10px;
+
+}
+.details2 h2{
+  text-align: center;
+}
+.pokemontype2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  left: 14px;
+  top: 46%;
+  border-radius: 7px;
+  position: absolute;
+  color:white;
+  width: 4rem;
+  height: 1.5rem;
+}
+
+.backbtn{
+  background-color: #ffde00;
+  position: absolute;
+  height:30px;
+  width: 60px;
+}
+.backbtn:hover{
+  background-color: #b3a125;
+}
+
+.homepage{
+  margin-top: 40px;
+  
+  text-align:center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+.homepage p{
+  font-family: sans-serif;
+  font-size: large;
+  max-width: 100ch;
+}
